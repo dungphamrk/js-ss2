@@ -1,0 +1,50 @@
+1.Câu lệnh if/else: được sử dụng khi chúng ta cần kiểm tra một điều kiện và 
+thực hiện các hành động tương ứng với điều kiện đó. Câu lệnh if/else có thể
+được sử dụng để kiểm tra nhiều điều kiện khác nhau và thực hiện các hành động tương ứng với
+từng điều kiện. 
+    vi du:
+        let num=+prompt("Nhap so can kiem tra");
+        if (isNaN(num)) {
+            console.log("ko hop le");
+        }else{
+            num>=0 ? console.log("do la so duong") :console.log("do la so am"); 
+        }
+2.Câu lệnh switch/case: được sử dụng khi chúng ta cần kiểm tra một biến 
+và thực hiện các hành động tương ứng với giá trị của biến đó. Câu lệnh switch/case 
+chỉ có thể kiểm tra giá trị của biến và thực hiện các hành động tương ứng với giá trị đó. 
+Ví dụ:
+ let day=+prompt("Nhap so ngay can kiem tra");
+        
+        switch (day) {
+            case 8:
+                day = "Sunday";
+                console.log(day);
+                break;
+            case 2:
+                day = "Monday";
+                console.log(day);
+                break;
+            case 3:
+                day = "Tuesday";
+                console.log(day);
+                break;
+            case 4:
+                day = "Wednesday";
+                console.log(day);
+                break;
+            case 5:
+                day = "Thursday";
+                console.log(day);
+                break;
+            case 6:
+                day = "Friday";
+                console.log(day);
+                break;
+            case  7:
+                day = "Saturday";
+                console.log(day);
+                break;
+      default:
+        console.log("ko hop le");
+        break;
+}

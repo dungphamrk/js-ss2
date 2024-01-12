@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bt8</title>
+</head>
+<body>
+    <script>
+        let weight=+prompt("Nhap can nang cua ban");
+        let height=+prompt("Nhap chieu cao");
+        if (isNaN(weight)||isNaN(height)) {
+            console.log("INVALD");
+        }else{
+            let bmi=weight/(height**2);
+            if (bmn>=40) {
+                console.log("Beo phi do III");
+            }
+            else if(bmi>=35){
+                console.log("Beo phi do II");
+            }
+            else if(bmi>=30){
+                console.log("Beo phi do I");
+            }
+            else if(bmi>=25){
+                console.log("tien beo phi");
+            }
+            else if(bmi>18.5){
+                console.log("tien beo phi");
+            }else console.log("gay");
+        }
+    </script>
+</body>
+</html>

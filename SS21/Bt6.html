@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bt6</title>
+    </head>
+    <body>
+        <script>
+        let math=+prompt("Nhap diem mon toan");
+        let literature=+prompt("Nhap diem mon van");
+        let english=+prompt("Nhap diem mon anh");
+        if (isNaN(math)&&isNaN(literature)&&isNaN(english)) {
+            console.log("INVALD");
+        }
+        else{
+        let result= (math+literature+english)/3;
+        if (result>=8) {
+            console.log("xep loai gioi.");
+        }
+        else if(result>=6.5){
+            console.log("xep loai kha.");
+
+        }else if(result>=5){
+            console.log("xep loai trung binh.");
+        }else console.log("xep loai yeu");
+    }
+    </script>
+    </body>
+</html>
